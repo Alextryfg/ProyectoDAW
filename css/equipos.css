@@ -1,0 +1,140 @@
+.jugador{
+    padding: 2px; /* Añade un espacio interior de 10 píxeles */
+    transition: transform 0.3s ease;
+    /*background-color: aliceblue;*/
+    transform: scale(0.95);
+    text-align: center;
+    
+  }
+
+  .nombrej {
+    color: rgb(9, 9, 9);
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-top: 230px;
+    transform: rotateY(360deg)
+    }
+  
+  .caracteristicasj {
+    color: rgb(9, 9, 9);
+    font-size: 1rem;
+    position: relative;
+    right: 57px;
+    bottom: 15px;
+    font-weight: bold;
+    margin-top: 0px;
+  
+  }
+  
+  .caracteristicasj2 {
+    color: rgb(9, 9, 9);
+    font-size: 1rem;
+    position: relative;
+    bottom: 30px;
+    right: 58px;
+    font-weight: bold;
+  }
+  
+  .caracteristicasj3 {
+    color: rgb(9, 9, 9);
+    font-size: 1rem;
+    font-weight: bold;
+    position: relative;
+    bottom: 126px;
+    left:50px;
+  }
+  
+  .caracteristicasj4 {
+    color: rgb(9, 9, 9);
+    font-size: 1rem;
+    font-weight: bold;
+    position: relative;
+    bottom: 143px;
+    left:50px;
+  }
+  
+  .imagenj {
+    position: relative;
+    bottom: 465px;
+    left:15px;
+  }
+  
+  .equipoj{
+    position: relative;
+    width: 14%;
+    bottom: 600px;
+    right: 63px;
+  }
+  
+  .nacionalidadj{
+    position: relative;
+    width: 14%;
+    bottom: 560px;
+    right: 107px;
+  }
+  .posicionj{
+   color: rgb(9, 9, 9);
+    font-size: 1rem;
+    font-weight: bold;
+    position: relative;
+    bottom: 785px;
+    right:89px;
+  }
+  
+  .imagen {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease;
+  }
+  
+  .titulo-container {
+    position: absolute;
+    top: 0%; /* cambia el valor aquí */
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    transform-origin: center center;
+    transition: transform 0.5s ease;
+    overflow: hidden;
+  }
+  
+  .titulo {
+    color: #fff;
+    opacity: 0.8;
+    padding: 10px;
+  }
+  
+  .contenedor-imagenes{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+  }
+  
+  
+  .rotate-on-hover:hover .imagen {
+    transform: scale(1.2);
+  }
+  
+  .rotate-on-hover:hover .titulo-container {
+    transform: scale(1.2);
+  }
+  
+    .rotate-on-hover {
+    position: relative;
+    width: 300px;
+    height: 415px;
+  }
+  
+  
+  .rotate-on-hover.big-rotate .imagen {
+    transform: rotateY(360deg) scale(1.3);
+  }
+  
+  
+  .rotate-on-hover:hover .titulo-container {
+    transform: rotateY(360deg) scale(1.3);
+  }

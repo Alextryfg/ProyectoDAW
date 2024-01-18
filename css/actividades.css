@@ -1,0 +1,26 @@
+.actividad{
+    transition: transform 0.3s ease;
+    background-color: goldenrod;/*aliceblue;*/
+    transform: scale(0.95);
+  }
+  
+  .actividad:hover {
+    transform: scale(0.9); /* Escala el elemento al 90% al pasar el cursor por encima */
+    box-shadow: 0 0 45px burlywood;/*blueviolet; /* Añade una sombra alrededor del elemento */
+  }
+  
+  .actividad p{
+    color: black;
+    margin: 1em;
+    font-size: 0.9em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .actividadImg {
+
+    /* Alto máximo de la imagen */
+    height: 100%;
+    max-width: 100%;
+    object-fit: cover; /* Escala la imagen sin deformarla */
+
+  }

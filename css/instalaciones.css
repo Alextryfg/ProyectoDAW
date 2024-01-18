@@ -1,0 +1,41 @@
+.instalacion h3{
+color: black;
+}
+  
+.instalacion figure img{
+margin:auto; 
+width: 100%; 
+height: 100%;
+}
+
+.instalacion{
+transition: transform 0.3s ease;
+background-color: goldenrod;/*aliceblue;*/
+transform: scale(0.95);
+}
+
+.instalacion:hover {
+transform: scale(0.9); /* Escala el elemento al 90% al pasar el cursor por encima */
+box-shadow: 0 0 45px burlywood;/*blueviolet; /* Añade una sombra alrededor del elemento */
+}
+
+.instalacion p{
+color: black;
+margin: 1em;
+}
+
+
+/* Probamos mapa ahora*/
+
+.mapa {
+width: 100%; /* ancho del mapa */
+height: 400px; /* alto del mapa */
+border: double 2px goldenrod; /* borde del mapa */
+margin-top: 1em;
+}
+
+.hover-effect {
+    border: 2px solid white;
+    border-radius: 2px;
+    background-color: goldenrod;
+  }

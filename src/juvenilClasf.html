@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+  <html lang="es">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Palancas Hockey Club</title>
+      <!-- Cargar el css de bootstrap -->
+      <link rel="stylesheet" type="text/css" href="../css/estiloComun.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    </head>
+    
+    
+    <body class="container-fluid">
+
+        <!--Pantalla de carga-->
+        <div id="loader">
+          <span class="dot">Palancas Hockey</span>
+        </div>
+
+        <!--Un encabezado con el logo del club a la izquierda-->
+        <header class="container-fluid">
+          <div class="row">
+            
+            <div class="col-md-4">
+              <figure class="contenedor-imagen">
+                  <a href="../index.html"><img src="../img/palancas.png" alt="Logo del Palancas Hockey Club" width="80" height="80" class = "icon" ></a>
+              </figure> 
+            </div>
+            <div class="col-md-4 align-self-center">
+        
+              <h1 class="text-vw" id="letra-titulo"><em>Palancas Hockey Club</em></h1> 
+        
+            </div>
+          </div>
+        </header>
+        
+        <nav>
+      
+            <ul>
+                <li><a href="../src/instalaciones.html">Instalaciones</a></li>
+                <li><a href="../src/historia.html">Historia</a></li>
+                <li>
+                  <a>Equipos</a>
+                  <ul>
+                    <li>
+                      <a href="../src/seniorFem.html">Senior Fem</a>
+                    </li>
+                    <li>
+                      <a href="../src/seniorMasc.html">Senior Masc</a>
+                    </li>
+                    <li>
+                      <a href="../src/juniorMixto.html">Junior Mixto</a>
+                    </li>
+                    <li>
+                      <a href="../src/juvenilMixto.html">Juvenil Mixto</a>
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="../src/merchandising.html">Merchandising</a></li>
+                <li><a href="../src/socios.html">Socios</a></li>
+                <li><a href="../src/actividades.html">Actividades</a></li>
+                <li class="activo">
+                  <a>Clasificaciones</a>
+                  <ul>
+                    <li>
+                      <a href="../src/seniorFemClasf.html">Senior Fem</a>
+                    </li>
+                    <li>
+                      <a href="../src/seniorMascClasf.html">Senior Masc</a>
+                    </li>
+                    <li>
+                      <a href="../src/juniorClasf.html">Junior Mixto</a>
+                    </li>
+                    <li>
+                      <a href="../src/juvenilClasf.html">Juvenil Mixto</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+        
+        </nav>
+                  
+      <section class="container-fluid">
+        <h3>Descripcion Reglas:</h3> 
+        <p class="resumen">
+          En función del resultado al final de cada partido, los equipos obtienen una serie de puntos: 
+          tres para el ganador, cero para el perdedor y un punto para cada equipo en caso de empate. 
+          Al término de la temporada se elabora una clasificación en función de los puntos acumulados 
+          a lo largo del campeonato.
+          Si dos equipos terminaran en igualdad de puntos, el primer criterio de desempate es el resultado 
+          del enfrentamiento directo entre aquellos equipos que terminen el torneo en igualdad de puntos. 
+          Segundo criterio: es la mejor diferencia entre goles anotados y recibidos. En caso de que hayan sido 
+          tres o más los equipos implicados en el empate, se tiene en cuenta en primer lugar el número de puntos 
+          obtenidos en los enfrentamientos entre los clubes implicados, siguiendo por la diferencia de goles en 
+          los enfrentamientos entre dichos clubes. Si no se hubiera acabado con la igualdad, se tendrían en cuenta 
+          los goles anotados y encajados durante toda la liga por los clubes empatados a puntos. El sistema es 
+          eliminatorio. Es decir, si con el primer método de desempate, un equipo desempata y persiste el 
+          empate entre otros dos, se volverá a aplicar todo el sistema a los clubes que sigan empatados, 
+          eliminando a los ya desempatados. Todo esto ayuda a determinar al campeón de la liga regular al 
+          término de la última jornada.
+        </p>
+
+        <h3>Bienvenido a la clasificación del equipo Juvenil:</h3> 
+
+        <div class="row">
+                <section class="col-md-12 p-2 mx-auto border-5 border-dark rounded">
+                    
+                    <table class="table table-striped table-bordered table-hover table-responsive-sm text-center" id="tabla-equipos">
+                        <thead class="thead-dark">
+                          <th>Escudo</th>
+                          <th>Equipo</th>
+                          <th>Puntos</th>
+                          <th>PJ</th>
+                          <th>PG</th>
+                          <th>PE</th>
+                          <th>PP</th>
+                          <th>GF</th>
+                          <th>GC</th>
+                          <th>Diferencia de goles</th>
+                        </thead>
+                        <tbody>
+                          </tbody>   
+                      </table>
+                    
+                </section>
+          </div>
+      </section>
+      
+      <footer>
+          <!--Iconos de redes sociales-->
+          <a href="https://www.facebook.com/"><img src="../img/iconos/facebook.png" alt="Facebook" width="50" height="50" class="icon"></a>
+          <a href="https://www.instagram.com/"><img src="../img/iconos/instagram.png" alt="Instagram" width="50" height="50" class="icon"></a>
+          <a href="https://twitter.com/"><img src="../img/iconos/twitter.png" alt="Twitter" width="50" height="50" class="icon"></a>
+          <a href="https://www.youtube.com/"><img src="../img/iconos/youtube.png" alt="Youtube" width="50" height="50" class="icon"></a>
+          <a href="https://www.linkedin.com/"><img src="../img/iconos/linkedin.png" alt="Linkedin" width="50" height="50" class="icon"></a>
+      
+          <p>Club Deportivo - Todos los derechos reservados &copy; 2023</p>
+          <p>Teléfono: <a href="tel:677 34 56 70">677 34 56 70</a></p>
+          <p>Correo electrónico: <a href="mailto:chpalancas@gmail.com">chpalancas@gmail.com</a></p>
+      
+      </footer>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+      <script src="../js/loadDOMEffects.js"></script> 
+      <script src="../js/loadPageJES6.js"></script>
+      <script src="../js/loadXml.js"></script>
+
+    </body>
+  </html>

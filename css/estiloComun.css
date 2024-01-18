@@ -1,0 +1,253 @@
+h1{
+color: goldenrod;/* rgba(255, 253, 240, 0.496);*/
+padding: 50px 0px;
+margin-block-start: 0;
+margin-block-end: 0;
+
+}
+
+h2{
+color: white;
+margin: 8em 0em;
+}
+
+h4{
+color: black;
+}
+
+h3{
+color: white;
+}
+
+#letra-titulo{
+font-size: 3vw;
+}
+
+p{
+color: white;
+margin: 2em;
+}
+
+a{
+text-decoration: none !important;
+}
+
+a:hover{
+color: white !important;
+}
+
+.text-vw {
+font-size: 4vw; /* Tamaño de letra base */
+line-height: 1.5; /* Altura de línea base */
+text-align: center;
+}
+
+body{
+background-color: rgb(10, 10, 10) !important;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin: 0;
+}
+
+figure img {
+float: left; /* Para que el texto se posicione a la derecha de la imagen*/
+margin-right: 10px;
+margin-bottom: 10px;
+
+}
+
+.margen{
+margin-top: 3em;
+margin-bottom: 3em;
+text-align: justify;
+}
+
+
+footer{
+
+background-color: rgb(10, 10, 10);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: white;
+padding: 20px !important;
+text-align: center !important;
+}
+
+footer p{
+color: goldenrod;
+margin: 2em !important;
+}
+
+footer p a:hover{
+color: goldenrod !important;
+}
+
+.icon {
+margin-right: 10px;
+transition: transform 0.2s;
+}
+
+.icon:hover {
+transform: scale(1.2);
+}
+
+head{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-size:0;
+}
+
+ul { /* Esto es el estilo de la lista */
+list-style-type: none; /* esto es para que no se vea el punto de la lista */
+font-size:large;  /* tamaño de la letra */
+/*background-color: rgba(27, 2, 222, 0.826);*/
+margin-block-start: 0; 
+margin-block-end: 0;  /* Todo esto es para lo de los margenes que no sean por defecto y no dejen espacio con el encabezado*/
+padding-inline-start: 0;
+width: 100%;
+display: inline-block; /* block ocupa toda la linea, inline ocupa lo minimo, inline-block te deja modificar sus valores*/
+text-align: center;
+}
+
+nav a{ 
+text-decoration: none; /*esto es para que no se vea el subrayado de los botones*/
+color: white; /*Color de la letra*/
+font-size:16px; /*Tamaño de la letra de los botones*/
+display: block;
+width: 100%;
+margin: 0;
+}
+
+/* Si es inline, no importa que pongas widht y height ya que no te lo dejarán modificar
+se supone que inline hace que ocupe la barra el menor espacio posible, solo si le pones
+inline-block puedes modificar su ancho y alto*/
+    
+nav li{
+display:inline-block; /*inline (minimo) Block (toda la linea) inline-block (permite modificar con widht y height)*/
+width: 160px; /*Ancho de los botones*/
+height: 30px; /*Alto de los botones*/
+text-align:center; /*Alineacion de los botones dentro del cuadre*/
+color:#fff;
+position:relative; /*No tocar esto, e spara que los botones vayan hacia abajo en el hover*/
+line-height:30px; /*No tocar esto, es para que la letra este en el medio del boton*/
+z-index: 1;/*Para que se vea por encima del carrusel de imagenes*/
+}
+    
+nav li:hover{  /* Esto es el color de los botones al clicarlos, HOVER se refiere a pasar el raton por encima */
+background-color:goldenrod;/*rgba(8, 8, 8, 1); Color de los botones al pasar el raton por encima*/
+color:white; /*Color de la letra al pasar el raton por encima*/
+z-index: 2; /*Para que se vea por encima de otras menus de menor nivel*/
+}
+
+    
+nav li>ul{
+display:none; /*esto es para que no se despliegue el menu desplegable hasta que se pase el rato por encima*/
+background-color:black;
+}
+
+nav li:hover>ul{ /* esto es lo que pasa al pasar el raton por encima de los botones */
+display:block; /*esto es para que se despliegue el menu desplegable*/
+position:absolute; /*esto es para que los botones se desplacen hacia abajo*/
+top:30px; /*Lo que se desplaza para abajo el menu desplegable*/
+left:0px; /*Lo que se desplaza para la izquierda el menu desplegable*/
+}
+
+.activo{
+background-color:goldenrod;
+}
+
+.contenedor-imagen {
+position: absolute;
+display: block;
+width: 80px;
+height: 80px;
+top: 45px;
+left: 30px;
+}
+
+.resumen {
+text-align: justify;
+margin: 1em;
+}
+
+/* PARA JES6 */
+
+#loader {
+display: flex;
+flex-direction: column; /* Añadir esta línea para alinear el texto */
+justify-content: center;
+align-items: center;
+height: 100vh;
+width: 100%;
+position: fixed;
+top: 0;
+left: 0;
+background-color: #181818;
+z-index: 9999;
+}
+
+#loader span{
+font-size: 30px;
+color: white;
+font-weight: bold;
+}
+
+.fadeOut {
+opacity: 0;
+visibility: hidden;
+transition: opacity 0.5s ease-out, visibility 0.5s linear;
+}
+
+.dot {
+border-radius: 50%;
+background-color: #181818;
+opacity: 0;
+animation: fade 2s ease-in-out infinite;
+
+}
+
+@keyframes fade {
+0% {
+opacity: 0;
+transform: scale(0);
+}
+50% {
+opacity: 1;
+transform: scale(2);
+}
+100% {
+opacity: 0;
+transform: scale(0);
+}
+}
+
+/* EFECTO JAVASCRIPT ARTICULO POR TAGNAME */
+
+article{
+color: white;/*goldenrod;*/
+text-align: justify;
+margin: auto;
+transition: background-color 0.5s ease;
+}
+
+#clasificacion{
+  text-align: center;
+  margin-top: 3em;
+}
+
+#formulario{
+  width: 80%;
+  height: 80%;
+  border: double 2px goldenrod;/*rgb(4, 253, 178);*/
+  background-image: url('../img/fondoSocios.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.etiqueta-formulario{
+  color: white;
+}
+
+.btn-outline-primary {
+  color: #007bff !important;
+  border-color: black !important;
+}

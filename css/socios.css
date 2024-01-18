@@ -1,0 +1,24 @@
+#socios{
+    text-align: center;
+    color:white !important;
+  }
+  
+  #socios tr{
+    border : 1px solid white !important;
+  }
+
+  .pricing-header {
+    max-width: 700px;
+}
+
+.card-body li>ul{
+   /*esto es para que no se despliegue el menu desplegable hasta que se pase el rato por encima*/
+    background-color:goldenrod;
+  
+}
+
+.btn-outline-primary:hover {
+    color: white !important;
+    background-color: goldenrod !important;
+    border-color: black !important;
+  }

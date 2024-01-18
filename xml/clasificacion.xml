@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<liga>
+  <equipo>
+    <img src="../img/palancas.png"/>
+    <nombre>Palancas Hockey Club</nombre>
+    <puntos>65</puntos>
+    <pj>28</pj>
+    <pg>19</pg>
+    <pe>8</pe>
+    <pp>1</pp>
+    <gf>62</gf>
+    <gc>20</gc>
+    <diferencia_de_goles>42</diferencia_de_goles>
+  </equipo>
+  <equipo>
+    <img src="../img/club.png"/>
+    <nombre>Real Madrid</nombre>
+    <puntos>63</puntos>
+    <pj>28</pj>
+    <pg>18</pg>
+    <pe>9</pe>
+    <pp>1</pp>
+    <gf>61</gf>
+    <gc>20</gc>
+    <diferencia_de_goles>41</diferencia_de_goles>
+</equipo>
+  <equipo>
+    <img src="../img/club.png"/>
+    <nombre>Barcelona</nombre>
+    <puntos>62</puntos>
+    <pj>28</pj>
+    <pg>18</pg>
+    <pe>8</pe>
+    <pp>2</pp>
+    <gf>58</gf>
+    <gc>23</gc>
+    <diferencia_de_goles>35</diferencia_de_goles>
+  </equipo>
+  <equipo>
+    <img src="../img/club.png"/>
+    <nombre>Atlético de Madrid</nombre>
+    <puntos>58</puntos>
+    <pj>28</pj>
+    <pg>16</pg>
+    <pe>10</pe>
+    <pp>2</pp>
+    <gf>45</gf>
+    <gc>18</gc>
+    <diferencia_de_goles>27</diferencia_de_goles>
+  </equipo>
+  <equipo>
+    <img src="../img/club.png"/>
+    <nombre>Sevilla</nombre>
+    <puntos>54</puntos>
+    <pj>28</pj>
+    <pg>17</pg>
+    <pe>3</pe>
+    <pp>8</pp>
+    <gf>34</gf>
+    <gc>22</gc>
+    <diferencia_de_goles>12</diferencia_de_goles>
+  </equipo>
+  <equipo>
+    <img src="../img/club.png"/>
+    <nombre>Real Sociedad</nombre>
+    <puntos>46</puntos>
+    <pj>28</pj>
+    <pg>11</pg>
+    <pe>13</pe>
+    <pp>4</pp>
+    <gf>43</gf>
+    <gc>32</gc>
+    <diferencia_de_goles>11</diferencia_de_goles>
+  </equipo>
+    <equipo>
+        <img src="../img/club.png"/>
+        <nombre>Real Betis</nombre>
+        <puntos>45</puntos>
+        <pj>28</pj>
+        <pg>12</pg>
+        <pe>9</pe>
+        <pp>7</pp>
+        <gf>38</gf>
+        <gc>32</gc>
+        <diferencia_de_goles>6</diferencia_de_goles>
+    </equipo>
+    <equipo>
+        <img src="../img/club.png"/>
+        <nombre>Valencia</nombre>
+        <puntos>45</puntos>
+        <pj>28</pj>
+        <pg>12</pg>
+        <pe>9</pe>
+        <pp>7</pp>
+        <gf>38</gf>
+        <gc>32</gc>
+        <diferencia_de_goles>6</diferencia_de_goles>
+    </equipo>
+    <equipo>
+        <img src="../img/club.png"/>
+        <nombre>Granada</nombre>
+        <puntos>44</puntos>
+        <pj>28</pj>
+        <pg>12</pg>
+        <pe>8</pe>
+        <pp>8</pp>
+        <gf>37</gf>
+        <gc>32</gc>
+        <diferencia_de_goles>5</diferencia_de_goles>
+    </equipo>
+    <equipo>
+        <img src="../img/club.png"/>
+        <nombre>Levante</nombre>
+        <puntos>43</puntos>
+        <pj>28</pj>
+        <pg>11</pg>
+        <pe>10</pe>
+        <pp>7</pp>
+        <gf>36</gf>
+        <gc>32</gc>
+        <diferencia_de_goles>4</diferencia_de_goles>
+    </equipo>
+    <equipo>
+        <img src="../img/club.png"/>
+        <nombre>Osasuna</nombre>
+        <puntos>43</puntos>
+        <pj>28</pj>
+        <pg>11</pg>
+        <pe>10</pe>
+        <pp>7</pp>
+        <gf>36</gf>
+        <gc>32</gc>
+        <diferencia_de_goles>4</diferencia_de_goles>
+    </equipo>
+    <equipo>
+        <img src="../img/club.png"/>
+        <nombre>Real Valladolid</nombre>
+        <puntos>42</puntos>
+        <pj>28</pj>
+        <pg>11</pg>
+        <pe>9</pe>
+        <pp>8</pp>
+        <gf>34</gf>
+        <gc>32</gc>
+        <diferencia_de_goles>2</diferencia_de_goles>
+    </equipo>
+    <equipo>
+        <img src="../img/club.png"/>
+        <nombre>Elche</nombre>
+        <puntos>41</puntos>
+        <pj>28</pj>
+        <pg>11</pg>
+        <pe>8</pe>
+        <pp>9</pp>
+        <gf>34</gf>
+        <gc>32</gc>
+        <diferencia_de_goles>2</diferencia_de_goles>
+    </equipo>
+    <equipo>
+        <img src="../img/club.png"/>
+        <nombre>Alavés</nombre>
+        <puntos>41</puntos>
+        <pj>28</pj>
+        <pg>11</pg>
+        <pe>8</pe>
+        <pp>9</pp>
+        <gf>34</gf>
+        <gc>32</gc>
+        <diferencia_de_goles>2</diferencia_de_goles>
+    </equipo>
+    <equipo>
+        <img src="../img/club.png"/>
+        <nombre>Villareal</nombre>
+        <puntos>40</puntos>
+        <pj>28</pj>
+        <pg>10</pg>
+        <pe>10</pe>
+        <pp>8</pp>
+        <gf>38</gf>
+        <gc>32</gc>
+        <diferencia_de_goles>6</diferencia_de_goles>
+    </equipo>
+</liga>

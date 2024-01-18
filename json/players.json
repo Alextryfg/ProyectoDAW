@@ -1,0 +1,102 @@
+[
+    {
+      "nombre": "Juana",
+      "PAC": "PAC: 78",
+      "DRIFT": "DRI: 82",
+      "SHOT": "SHOT: 75",
+      "DEF": "DEF: 86",
+      "POS": "DEL",
+      "picj": "../img/cromos/chicaCromo.png",
+      "nacionj": "../img/cromos/spain.png",
+      "clubj": "../img/cromos/club.png"
+    },
+    {
+      "nombre": "María",
+      "PAC": "PAC: 80",
+      "DRIFT": "DRI: 75",
+      "SHOT": "SHOT: 82",
+      "DEF": "DEF: 85",
+      "POS": "DEL",
+      "picj": "../img/cromos/chicaCromo.png",
+      "nacionj": "../img/cromos/spain.png",
+      "clubj": "../img/cromos/club.png"
+    },
+    {
+      "nombre": "Pedro",
+      "PAC": "PAC: 85",
+      "DRIFT": "DRI: 73",
+      "SHOT": "SHOT: 78",
+      "DEF": "DEF: 88",
+      "POS": "DEL",
+      "picj": "../img/cromos/chicaCromo.png",
+      "nacionj": "../img/cromos/spain.png",
+      "clubj": "../img/cromos/club.png"
+    },
+    {
+      "nombre": "Ana",
+      "PAC": "PAC: 79",
+      "DRIFT": "DRI: 80",
+      "SHOT": "SHOT: 77",
+      "DEF": "DEF: 84",
+      "POS": "DEL",
+      "picj": "../img/cromos/chicaCromo.png",
+      "nacionj": "../img/cromos/spain.png",
+      "clubj": "../img/cromos/club.png"
+    },
+    {
+      "nombre": "Luis",
+      "PAC": "PAC: 82",
+      "DRIFT": "DRI: 85",
+      "SHOT": "SHOT: 80",
+      "DEF": "DEF: 83",
+      "POS": "DEL",
+      "picj": "../img/cromos/chicaCromo.png",
+      "nacionj": "../img/cromos/spain.png",
+      "clubj": "../img/cromos/club.png"
+    },
+    {
+      "nombre": "Laura",
+      "PAC": "PAC: 84",
+      "DRIFT": "DRI: 78",
+      "SHOT": "SHOT: 83",
+      "DEF": "DEF: 86",
+      "POS": "DEL",
+      "picj": "../img/cromos/chicaCromo.png",
+      "nacionj": "../img/cromos/spain.png",
+      "clubj": "../img/cromos/club.png"
+    },
+    {
+      "nombre": "Carlos",
+      "PAC": "PAC: 76",
+      "DRIFT": "DRI: 87",
+      "SHOT": "SHOT: 81",
+      "DEF": "DEF: 80",
+      "POS": "DEL",
+      "picj": "../img/cromos/chicaCromo.png",
+      "nacionj": "../img/cromos/spain.png",
+      "clubj": "../img/cromos/club.png"
+    },
+    {
+      "nombre": "Sofía",
+      "PAC": "PAC: 81",
+      "DRIFT": "DRI: 76",
+      "SHOT": "SHOT: 85",
+      "DEF": "DEF: 87",
+      "POS": "DEL",
+      "picj": "../img/cromos/chicaCromo.png",
+      "nacionj": "../img/cromos/spain.png",
+      "clubj": "../img/cromos/club.png"
+    },
+    {
+      "nombre": "Jorge",
+      "PAC": "PAC: 77",
+      "DRIFT": "DRI: 82",
+      "SHOT": "SHOT: 76",
+      "DEF": "DEF: 89",
+      "POS": "DEL",
+      "picj": "../img/cromos/chicaCromo.png",
+      "nacionj": "../img/cromos/spain.png",
+      "clubj": "../img/cromos/club.png"
+    }
+  ]
+  

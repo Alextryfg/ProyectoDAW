@@ -1,0 +1,64 @@
+  /* EFECTO JAVASCRIPT DE OSCURECER Y CRECER CON CLICK Y DOBLE CLICK  POR GETBYCLASSNAME*/
+
+  .oscurecer img {
+    transition: transform 0.5s ease;
+    display: inline-block;
+    margin:auto; 
+    width: 100%; 
+    height: 100%;
+  }
+  
+  .oscurecer.big-darker img {
+    transform: scale(0.8);
+    filter: brightness(0.5);
+    filter: grayscale(80%);
+    filter: blur(1px);
+    
+  
+  }
+
+       /* EFECTO JAVASCRIPT POR QUERYSELECTOR */
+
+       #agradecimiento img{
+        color: white;
+        justify-content: center;
+        margin: auto;
+        width: 50%;
+        height: 50%;
+      }
+  
+      .efecto-agradecimiento{
+        border-radius:50%;
+        -webkit-border-radius:50%; /* Da un vendor extension pero no es un error como tal, se puede dejar */
+        -webkit-box-shadow: 0px 0px 15px 15px goldenrod;
+        box-shadow:  0 0 55px rgb(201, 155, 36);
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        transition: 1.5s ease;
+      }
+  
+      .efecto-agradecimiento-desactivar {
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        transition: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+      }
+  
+      /* EFECTO JAVASCRIPT POR GETBYID */
+  
+      #textoEspecial{
+        color: white;
+        text-align: justify;
+        /*tamaño del campo fijo*/
+        width: 100%;
+        height: 100%;
+        max-height: 100%;
+      }
+
+      .hover-effect {
+        border: 2px solid white;
+        border-radius: 2px;
+        background-color: goldenrod;
+      }

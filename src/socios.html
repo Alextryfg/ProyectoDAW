@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+  <html lang="es">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Palancas Hockey Club</title>
+      <!-- Cargar el css de bootstrap -->
+      <link rel="stylesheet" type="text/css" href="../css/estiloComun.css">
+      <link rel="stylesheet" type="text/css" href="../css/socios.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    </head>
+    
+    
+    <body class="container-fluid">
+
+      <!--Pantalla de carga-->
+      <div id="loader">
+        <span class="dot">Palancas Hockey</span>
+      </div>
+
+      <!--Un encabezado con el logo del club a la izquierda-->
+      <header class="container-fluid">
+        <div class="row">
+          
+          <div class="col-md-4">
+            <figure class="contenedor-imagen">
+                <a href="../index.html"><img src="../img/palancas.png" alt="Logo del Palancas Hockey Club" width="80" height="80" class = "icon" ></a>
+            </figure> 
+          </div>
+          <div class="col-md-4 align-self-center">
+            <h1 class="text-vw" id="letra-titulo"><em>Palancas Hockey Club</em></h1> 
+          </div>
+        </div>
+      </header>
+        
+      <nav>
+    
+        <ul>
+          <li><a href="../src/instalaciones.html">Instalaciones</a></li>
+          <li><a href="../src/historia.html">Historia</a></li>
+          <li>
+            <a>Equipos</a>
+            <ul>
+              <li>
+                <a href="../src/seniorFem.html">Senior Fem</a>
+              </li>
+              <li>
+                <a href="../src/seniorMasc.html">Senior Masc</a>
+              </li>
+              <li>
+                <a href="../src/juniorMixto.html">Junior Mixto</a>
+              </li>
+              <li>
+                <a href="../src/juvenilMixto.html">Juvenil Mixto</a>
+              </li>
+            </ul>
+          </li>
+          <li><a href="../src/merchandising.html">Merchandising</a></li>
+          <li class="activo"><a href="../src/socios.html">Socios</a></li>
+          <li><a href="../src/actividades.html">Actividades</a></li>
+          <li>
+            <a>Clasificaciones</a>
+            <ul>
+              <li>
+                <a href="../src/seniorFemClasf.html">Senior Fem</a>
+              </li>
+              <li>
+                <a href="../src/seniorMascClasf.html">Senior Masc</a>
+              </li>
+              <li>
+                <a href="../src/juniorClasf.html">Junior Mixto</a>
+              </li>
+              <li>
+                <a href="../src/juvenilClasf.html">Juvenil Mixto</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      
+      </nav>
+        
+      <h2>¿Quieres ser socio del Palancas Hockey Club?</h2>
+      <section class="container-fluid">
+        
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center mt-5">
+          <div class="col-md-3 mx-auto">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Sub 12</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">15€<small class="text-muted fw-light">/año</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Tarifa especial para los más pequeños</li>
+                  <li>Múltiples descuentos</li>
+                </ul>
+                <a href="../src/formulario.html" class="w-100 btn btn-lg btn-outline-primary">Inscríbete!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mx-auto">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Juvenil</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">50€<small class="text-muted fw-light">/año</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Tarifa reducida para jóvenes</li>
+                  <li>Acceso a múltiples eventos en el pabellón</li>
+                </ul>
+                <a href="../src/formulario.html" class="w-100 btn btn-lg btn-outline-primary">Inscríbete!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mx-auto">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Adulto</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">100€<small class="text-muted fw-light">/año</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Tárifa básica para adultos</li>
+                  <li>Participación en las asambleas de socios</li>
+                </ul>
+                <a href="../src/formulario.html" class="w-100 btn btn-lg btn-outline-primary">Inscríbete!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <h3> Ventajas! </h3>
+
+      <section class="table-responsive margen">
+        <table class="table table-borderless text-center", id="socios">
+
+          <thead>
+            <tr>
+              <th style="width: 31%;"></th>
+              <th style="width: 23%;">Sub 12</th>
+              <th style="width: 23%;">Juvenil</th>
+              <th style="width: 23%;">Adulto</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th class="text-start">Descuento en las entradas de los partidos</th>
+              <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+              </svg></td>
+              <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+              </svg></td>
+              <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+              </svg></td>
+            </tr>
+            <tr>
+              <th scope="row" class="text-start">Descuento en merchandising del club</th>
+              <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+              </svg></td>
+              <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+              </svg></td>
+              <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+              </svg></td>
+            </tr>
+            <tr>
+              <th scope="row" class="text-start">Descuento en actividades</th>
+              <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+              </svg></td>
+              <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+              </svg></td>
+              <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+              </svg></td>
+            </tr>
+            <tr>
+              <th scope="row" class="text-start">Prioridad para acceso a eventos en el pabellón</th>
+              <td></td>
+              <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+              </svg></td>
+              <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+              </svg></td>
+            </tr>
+            <tr>
+              <th scope="row" class="text-start">Invitación a asambleas de socios</th>
+              <td></td>
+              <td></td>
+              <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+              </svg></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>  
+      <footer>
+        <!--Iconos de redes sociales-->
+        <a href="https://www.facebook.com/"><img src="../img/iconos/facebook.png" alt="Facebook" width="50" height="50" class="icon"></a>
+        <a href="https://www.instagram.com/"><img src="../img/iconos/instagram.png" alt="Instagram" width="50" height="50" class="icon"></a>
+        <a href="https://twitter.com/"><img src="../img/iconos/twitter.png" alt="Twitter" width="50" height="50" class="icon"></a>
+        <a href="https://www.youtube.com/"><img src="../img/iconos/youtube.png" alt="Youtube" width="50" height="50" class="icon"></a>
+        <a href="https://www.linkedin.com/"><img src="../img/iconos/linkedin.png" alt="Linkedin" width="50" height="50" class="icon"></a>
+    
+        <p>Club Deportivo - Todos los derechos reservados &copy; 2023</p>
+        <p>Teléfono: <a href="tel:677 34 56 70">677 34 56 70</a></p>
+        <p>Correo electrónico: <a href="mailto:chpalancas@gmail.com">chpalancas@gmail.com</a></p>
+      </footer>
+      <script src="../js/loadDOMEffects.js"></script>
+      <script src="../js/loadPageJES6.js"></script>
+    </body>
+  </html>
